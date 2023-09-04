@@ -1,6 +1,7 @@
 {
   "main": "src/server.js",
   "scripts": {
+
     "start": "nodemon src/server.js"
   },
   "dependencies": {

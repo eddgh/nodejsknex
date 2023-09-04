@@ -1,3 +1,4 @@
+
 require("dotenv").config();
 let knex = require('./database')
 
@@ -17,3 +18,6 @@ knex.select('nome', 'escala', 'turno')
     }).finally(function () {
         knex.destroy();
     });
+
+    module.exports = knex
+
